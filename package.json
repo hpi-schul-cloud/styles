@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "Styles for the @schul-cloud",
   "author": "HPI Schul-Cloud",
-  "private": true,
-  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/schul-cloud/styles.git"
