@@ -1,11 +1,16 @@
 {
+  "author": "HPI Schul-Cloud",
   "name": "@schul-cloud/styles",
   "version": "0.1.0",
+  "license": "AGPL-3.0",
   "description": "Styles for the @schul-cloud",
-  "author": "HPI Schul-Cloud",
+  "homepage": "https://github.com/schul-cloud/styles#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/schul-cloud/styles.git"
+  },
+  "bugs": {
+    "url": "https://github.com/schul-cloud/styles/issues"
   },
   "keywords": [
     "styles",
@@ -15,12 +20,16 @@
     "scss",
     "css"
   ],
-  "license": "AGPL-3.0",
-  "bugs": {
-    "url": "https://github.com/schul-cloud/styles/issues"
+  "scripts":{
+    "build-css": "node-sass scss -o build/css"
   },
-  "homepage": "https://github.com/schul-cloud/styles#readme",
+  "files": [
+    "build"
+  ],
   "publishConfig": {
     "access": "public"
+  },
+  "devDependencies": {
+    "node-sass": "^4.13.1"
   }
 }

@@ -7,6 +7,10 @@ cache: npm
 
 jobs:
   include:
+    - stage: build
+      name: build:css
+      script:
+        - "npm run build-css"
     # Deploy
     - stage: deploy
       name: NPM
