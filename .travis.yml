@@ -1,0 +1,21 @@
+language: node_js
+node_js: "lts/*"
+branches:
+  only:
+    - master
+cache: npm
+
+jobs:
+  include:
+    # Deploy
+    - stage: deploy
+      name: NPM
+      before_deploy:
+        - echo -e "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc 2> /dev/null
+      deploy:
+        provider: script
+        script:
+          - "npm publish || true"
+        skip_cleanup: true
+        on:
+          branch: master
