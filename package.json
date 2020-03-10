@@ -1,0 +1,28 @@
+{
+  "name": "@schul-cloud/styles",
+  "version": "1.0.0",
+  "description": "Styles for the @schul-cloud",
+  "author": "HPI Schul-Cloud",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/schul-cloud/styles.git"
+  },
+  "keywords": [
+    "styles",
+    "design-tokens",
+    "schul-cloud",
+    "design-system",
+    "scss",
+    "css"
+  ],
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/schul-cloud/styles/issues"
+  },
+  "homepage": "https://github.com/schul-cloud/styles#readme"
+}
