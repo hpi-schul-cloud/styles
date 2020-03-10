@@ -20,3 +20,14 @@ jobs:
         skip_cleanup: true
         on:
           branch: master
+    - script: skip
+      name: GITHUB
+      before_deploy:
+        - echo -e "//npm.pkg.github.com/:_authToken=${GITHUB_PACKAGE_TOKEN}\nregistry=https://npm.pkg.github.com/schul-cloud" > .npmrc 2> /dev/null
+      deploy:
+        provider: script
+        script:
+          - "npm publish || true"
+        skip_cleanup: true
+        on:
+          branch: master
