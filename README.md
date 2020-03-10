@@ -1,11 +1,11 @@
 # styles
-The node package for default schul-cloud styles
+The node package for default Schul-Cloud styles
 
 ## What does it provide?
 
 It provides 
 
-- build/css/default/variables.css: A full list of CSS variables for the schul-cloud default theme
+- build/css/default/variables.css: A full list of CSS variables for the Schul-Cloud default theme
 
 ## How to use it?
 
