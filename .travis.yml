@@ -13,10 +13,10 @@ jobs:
       script: skip
       before_deploy:
         - echo -e "//registry.npmjs.org/:_authToken=${NPM_TOKEN}" > .npmrc 2> /dev/null
+        - "npm run build-css"
       deploy:
         provider: script
         script:
-          - "npm run build-css"
           - "npm publish || true"
         skip_cleanup: true
         on:
@@ -25,10 +25,10 @@ jobs:
       name: GITHUB
       before_deploy:
         - echo -e "//npm.pkg.github.com/:_authToken=${GITHUB_PACKAGE_TOKEN}\nregistry=https://npm.pkg.github.com/schul-cloud" > .npmrc 2> /dev/null
+        - "npm run build-css"
       deploy:
         provider: script
         script:
-          - "npm run build-css"
           - "npm publish || true"
         skip_cleanup: true
         on:
