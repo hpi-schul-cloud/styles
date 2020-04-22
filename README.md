@@ -15,4 +15,5 @@ Import it in your Schul-Cloud project
 
 ## What's next?
 
-Other formats (e.g. SCSS) 
+- [ ] other formats (e.g. SCSS) - provide scss variables to import
+- [ ] other themes - provide variables ready to use for other themes like open, thr, n21, ... ([example theme variables](https://github.com/schul-cloud/nuxt-client/blob/develop/src/themes/open/styles/variables/_colors.scss))
