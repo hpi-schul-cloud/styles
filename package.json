@@ -1,21 +1,21 @@
 {
   "author": "HPI Schul-Cloud",
-  "name": "@schul-cloud/styles",
+  "name": "@hpi-schul-cloud/styles",
   "version": "0.2.2",
   "license": "AGPL-3.0",
-  "description": "Styles for the @schul-cloud",
-  "homepage": "https://github.com/schul-cloud/styles#readme",
+  "description": "Styles for the @hpi-schul-cloud",
+  "homepage": "https://github.com/hpi-schul-cloud/styles#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/schul-cloud/styles.git"
+    "url": "git+https://github.com/hpi-schul-cloud/styles.git"
   },
   "bugs": {
-    "url": "https://github.com/schul-cloud/styles/issues"
+    "url": "https://github.com/hpi-schul-cloud/styles/issues"
   },
   "keywords": [
     "styles",
     "design-tokens",
-    "schul-cloud",
+    "hpi-schul-cloud",
     "design-system",
     "scss",
     "css"
