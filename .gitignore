@@ -62,6 +62,7 @@ typings/
 
 #.vscode metadata
 .vscode/
+.dccache
 
 # lerna-changelog directory
 .changelog/
