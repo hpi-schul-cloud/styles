@@ -15,7 +15,7 @@ Allowed Types of change: `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `
 
 ### Changed
 
-- OPS-1289 - change the npm organisation name
+- OPS-1289 - change the npm organisation name, second time after someone undo it
 
 ## 0.2.0 - 2020-04-29
 
