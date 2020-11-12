@@ -1,7 +1,7 @@
 {
   "author": "HPI Schul-Cloud",
-  "name": "@schul-cloud/styles",
-  "version": "0.2.3",
+  "name": "@hpi-schul-cloud/styles",
+  "version": "0.2.4",
   "license": "AGPL-3.0",
   "description": "Styles for the @hpi-schul-cloud",
   "homepage": "https://github.com/hpi-schul-cloud/styles#readme",
