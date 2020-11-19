@@ -7,6 +7,20 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Allowed Types of change: `Added`, `Changed`, `Deprecated`, `Removed`, `Fixed`, `Security`
 
+## Unreleased
+## 0.2.4
+### Fixed
+
+- SC-7845 - fixed changelog github action
+
+### Added
+
+- OPS-1297 - added Changelog github action
+
+### Changed
+
+- OPS-1289 - change the npm organisation name, second time after someone undo it
+
 ## 0.2.0 - 2020-04-29
 
 ### Added in 0.2.0
