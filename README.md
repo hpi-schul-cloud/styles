@@ -1,4 +1,4 @@
-# styles
+# styles [Deprecated - use base styles in nuxt client instead]
 The node package for default HPI-Schul-Cloud styles
 
 ## What does it provide?
